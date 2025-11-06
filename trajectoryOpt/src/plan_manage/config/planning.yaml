@@ -30,7 +30,7 @@ amlMaxIter:               100
 penaWei:                  1000.0
 esdfWei:                  10000.0
 
-pieceTime:                0.8
+pieceTime:                1.2 #qilinn: 我增加了原本是0.8s,因为去掉经验时间后,计算崩溃了
 miniS:                    0.1
 # safeMargin:               0.25 #0.15+0.05
 # conpts:                   [[0.15, 0.0], [0.3, -0.00]]

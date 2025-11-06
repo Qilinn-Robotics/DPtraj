@@ -121,7 +121,7 @@ struct Config
         nh_priv.param("step_arc", step_arc, 0.9);
         nh_priv.param("checkl", checkl, 0.2);
         nh_priv.param("non_siguav", non_siguav, 0.0);
-        nh_priv.param("isdebug", isdebug, false);
+        nh_priv.param("isdebug", isdebug, true);
         nh_priv.param("isfixGear", isfixGear, false);
         nh_priv.param("isVis", isVis, false);
         nh_priv.param("enable_shot", enable_shot, false);
